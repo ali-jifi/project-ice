@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Project Ice Core",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/project.ice.core/bin/Debug/net8.0/project.ice.core.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/project.ice.core",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
